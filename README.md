@@ -1,2 +1,2 @@
-# Introduction_to_Computing_21103058_asg1
+# Introduction_to_Computing_21103058
 Assignment 1

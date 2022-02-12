@@ -135,10 +135,11 @@ print("\n")
 
 #Question.7.-
 print("Question.7.-")
+x = int(input("Enter the number of terms upto which you wish to find the fibbonaci sequence: "))
 count, a, b = 0, 0, 1
 c = a + b
 print(a, ",", b, ",", c, end=" , ")
-while count < 10:
+while count < x:
     count += 1
     a, b = b, c
     c = a + b

@@ -135,17 +135,22 @@ print("\n")
 
 #Question.7.-
 print("Question.7.-")
-x = int(input("Enter the number of terms upto which you wish to find the fibbonaci sequence: "))
+x = int(input("Enter the number of terms of the fibbonaci sequence(First two terms are 0 and 1): "))
 count, a, b = 0, 0, 1
 c = a + b
+d = []
 print(a, ",", b, ",", c, end=" , ")
-while count < x:
+while count < x - 3:
     count += 1
     a, b = b, c
     c = a + b
+    d.append(c)
     print(c, end=" , ")
 print()
-avg = c / count
+e = 0
+for i in d:
+    e += i
+avg = e / count
 print("The average upto", count, "terms is: ", avg)
 print("\n")
 

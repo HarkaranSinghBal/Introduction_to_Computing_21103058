@@ -101,9 +101,9 @@ The name of the student is pqr
 
 
 Question.7.-
-Enter the number of terms upto which you wish to find the fibbonaci sequence: 10
-0 , 1 , 1 , 2 , 3 , 5 , 8 , 13 , 21 , 34 , 55 , 89 , 144 , 
-The average upto 10 terms is:  14.4
+Enter the number of terms of the fibbonaci sequence(First two terms are 0 and 1): 10
+0 , 1 , 1 , 2 , 3 , 5 , 8 , 13 , 21 , 34 , 
+The average upto 7 terms is:  12.285714285714286
 
 
 Question.8.-
